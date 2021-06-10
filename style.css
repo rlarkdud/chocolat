@@ -1,0 +1,39 @@
+@font-face {
+			    font-family: 'KOTRA_BOLD-Bold';
+			    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.1/KOTRA_BOLD-Bold.woff') format('woff');
+			    font-weight: normal;
+			    font-style: normal;
+			}
+
+			#container {position: relative; width: 100%; overflow: hidden; }
+			.section {position: relative; width: 1080px; margin: 80px auto;}
+			
+			/* TOP */
+			#top {margin-top:20px; margin-bottom: 20px;}
+			#topTitle {position: relative; display: inline-block; font-family: 'KOTRA_BOLD-Bold';}
+			#navigation {display: inline-block; float:right;}
+
+			.menu {display: inline-block; margin-right: 10px;}
+			.menu a {text-decoration: none; color: black; font-family: 'KOTRA_BOLD-Bold';}
+
+			/* MAIN BANNER */
+			#main {width:100%; height: 600px; overflow: hidden;}
+
+			.sectionTitle {text-align: center; margin-bottom: 80px; font-size: 50px; font-family: 'KOTRA_BOLD-Bold';}
+
+			#first-left {float: left; width:40%; padding-right: 30px;}
+			#first-right {font-size: 25px; padding-top:10px;}
+
+			.clear {clear: both;}
+
+
+			#second-left {width:450px; float: left; padding-right: 30px;}
+			#second-left p {font-size: 25px; font-family: font-family: 'KOTRA_BOLD-Bold';}
+
+			#second-right {width:600px; height:600px; float: left; padding-bottom: 80px;}
+			#second-right img {width:600px; height:300px;}
+
+			.item {width:360px; float: left; margin-bottom: 10px; font-family: 'KOTRA_BOLD-Bold';}
+			.item img {width:100%;}
+
+			#footer {font-family: 'KOTRA_BOLD-Bold' , sans-serif;}
